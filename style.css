@@ -1,0 +1,213 @@
+/* Utilities */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* Navbar start */
+.navbar {
+    padding: 10px 0;
+}
+
+.nav-logo {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.65);
+    display: block;
+    padding: 15px 15px;
+}
+
+ul li a:hover {
+    background-color: azure;
+}
+
+.nav img {
+    height: 10px;
+    width: 10px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+ul li input {
+    height: 25px;
+    width: 55px;
+    border: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.75);
+    padding-left: 15px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+    outline: 0;
+}
+
+#srch-img {
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+
+ul li button {
+    background-color: white;
+    border: 0;
+}
+
+ul li button a {
+    padding: 0;
+}
+/* Navbar end */
+
+/* Home page start */
+.home-page {
+    background: linear-gradient(rgb(0 0 0 / 18%), rgb(28 28 23 / 22%), rgb(7 7 8 / 12%)), url("./assets/images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.home-wrap {
+    position: relative;
+}
+
+.home-content {
+    position: absolute;
+    top: 20%;
+    width: 600px;
+}
+
+.home-page {
+    position: relative;
+}
+
+.hm-left-container {
+    position: absolute;
+    background-color: #b74848;
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    height: 100%;
+    width: 65vh;
+}
+
+.hm-left-container img {
+    height: 58vh;
+    width: 76vh;
+    opacity: 0.3;
+}
+
+.text-box {
+    /* border: 1px solid black; */
+    width: 595px;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.km-btn {
+    margin: 30px 0;
+}
+
+.home-slide {
+    width: 220px;
+    height: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-box {
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.527);
+}
+
+.slide-box:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.home-slide div:first-child {
+    background-color: white;
+    border: 0;
+}
+
+.btn {
+    color: white;
+    padding: 10px 25px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.status-box {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    display: flex;
+    background-color: #0c0b0b61;
+    padding: 35px 20px;
+    justify-content: space-between;
+    color: white;
+    filter: blur(.5px);
+}
+
+.st-box {
+    display: flex;
+    height: 100%;
+}
+
+.st-img {
+    float: left;
+    margin-right: 15px;
+}
+
+.st-text {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0 35px;
+    text-align: center;
+}
+
+.st-text h3 {
+    font-size: 18px;
+}
+
+.st-text p {
+    font-size: 12px;
+    margin-top: 2px;
+}
+/* Home page end */
